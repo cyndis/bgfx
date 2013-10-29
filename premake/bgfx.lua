@@ -34,6 +34,7 @@ project "bgfx"
 		includedirs {
 			--nacl has GLES2 headers modified...
 			BGFX_DIR .. "3rdparty/glext",
+			BGFX_DIR .. "3rdparty/SDL2",
 		}
 
 	configuration {}
